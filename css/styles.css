@@ -57,6 +57,21 @@ button:hover {
     background-color: #eabf00;
 }
 
+.button-eliminar-carrito {
+  background-color: #FF5E57;
+  border: 2px solid #DB3535;
+}
+.button-eliminar-carrito:hover {
+  background-color: #FF005A;
+}
+.button-vaciar-carrito {
+  background-color: #FF5E57;
+  color: #FFFFFF;
+}
+.button-vaciar-carrito:hover {
+  background-color: #FF005A;
+}
+
 /* --- Utility Classes --- */
 .text-secondary {
     color: var(--secondary-color) !important;
@@ -117,6 +132,8 @@ button:hover {
     display: none;
 }
 
+
+
 /* -------------------------------------------------------------------------- */
 /*                                    HOME                                    */
 /* -------------------------------------------------------------------------- */
@@ -174,8 +191,12 @@ button:hover {
 .product-card img {
     width: 100%;
     aspect-ratio: 3/4;
+    object-fit: contain; /* <-- Cambia esto para que no se corte el bajo */
+    background-color: #fff; /* <-- Cambia esto a blanco para mejorar el fondo */
+    /*
     object-fit: cover;
     background-color: var(--light-gray);
+    */
 }
 
 .product-card h3 {
@@ -271,6 +292,30 @@ button:hover {
     width: 50%;
     margin-top: 1rem;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                  CARRITO                                   */
+/* -------------------------------------------------------------------------- */
+.acciones-carrito {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/* Controla el tamaño de la nueva imagen del carrito */
+.carrito-icono img {
+    height: 1.5rem;       /* Misma altura que el tamaño de fuente del menú */
+    width: auto;         /* Mantiene la proporción para que no se deforme */
+    vertical-align: middle; /* Lo alinea perfectamente en el eje vertical con el texto */
+}
+
+/* Alinea el icono y el número en una sola línea limpia */
+.carrito-icono {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;         /* Espacio de separación entre la bolsa y el número 0 */
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                                MEDIA QUERIES                               */

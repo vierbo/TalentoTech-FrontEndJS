@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "nombre": "Fender Jazz Bass",
+    "descripcion": "El estándar de la industria. Un sonido versátil y un mástil cómodo que se adapta a cualquier estilo.",
+    "precio": 1234,
+    "img": "img/f-jazz.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Gibson Thunderbird",
+    "descripcion": "Un ícono del rock. Su sonido potente y su diseño audaz no pasan desapercibidos.",
+    "precio": 1234,
+    "img": "img/Gibson-Thunderbird.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Rickenbacker 4003",
+    "descripcion": "El sonido clásico del rock progresivo y el post-punk. Tono brillante y sustain legendario.",
+    "precio": 1234,
+    "img": "img/Rickenbacker-4003.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Yamaha RBX260",
+    "descripcion": "Ideal para principiantes. Un bajo fiable, cómodo y con un sonido sólido para empezar a tocar.",
+    "precio": 1234,
+    "img": "img/product-bass-y-rbx260-blue.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Warwick Corvette",
+    "descripcion": "Uno de los modelos más icónicos y versátiles, reconocido por su cuerpo ergonómico y su distintivo sonido 'growl'.",
+    "precio": 1234,
+    "img": "img/warwick-corvette.jpg"
+  }
+]

@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
+    <!-- SEO -->
+    <meta name="description" content="Encuentra los mejores bajos eléctricos, amplificadores y accesorios en Grave. La tienda especializada para bajistas con las marcas más icónicas del mercado.">
+    <meta name="keywords" content="bajos electricos, tienda para bajistas, instrumentos musicales, fender jazz bass, rickenbacker">
 </head>
 <body>
     <header class="header">
@@ -23,6 +26,10 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#productos">Productos</a></li>
                     <li><a href="pages/contacto.html">Contacto</a></li>
+                    <li><a href="pages/carrito.html" class="carrito-icono">
+                            <img src="img/icono-carrito.png" alt="Carrito">
+                            <span id="contador-carrito">0</span></a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -40,6 +47,8 @@
 
         <section id="productos" class="product-section">
             <h2>Productos</h2>
+            <!--👉 Productos estáticos para la preentrega.
+
             <div class="product-grid">
                 <article class="product-card">
                     <img src="img/f-jazz.jpg" alt="Bajo eléctrico Fender Jazz Bass">
@@ -77,6 +86,11 @@
                     <button>Comprar</button>
                 </article>
             </div>
+             -->
+            <!--👉 Contenedor dinamico de tarjetas de productos-->
+            <div id="contenedor-tarjetas" class="product-grid">
+            <!-- Tarjetas -->
+            </div>
         </section>
     </main>
 
@@ -88,5 +102,6 @@
             <a href="https://youtube.com" target="_blank"><img src="img/icon-youtube.png" alt="Icono de YouTube"></a>
         </div>
     </footer>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>

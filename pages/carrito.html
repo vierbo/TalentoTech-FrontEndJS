@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
     <!-- SEO -->
-    <meta name="description" content="Contactanos para un mejor asesoramiento.">
+     <meta name="description" content="Revisa tu carrito de compras en Grave. Finaliza tu pedido de bajos eléctricos y accesorios con total seguridad.">
 </head>
 <body>
     <header class="header">
@@ -29,27 +29,24 @@
                         <img src="../img/icon-carrito.png" alt="Carrito">
                         <span id="contador-carrito">0</span></a>
                     </li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <main class="contact-main">
-        <section class="contact-section">
-            <h2>Contacto</h2>
-            <p>¿Tenés alguna duda? ¡Escribinos!</p>
-            <form action="https://formspree.io/f/xlgzodzw" method="POST" class="contact-form">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
+    <main>
+      <h2>Carrito de compras</h2>
+      <section id="contenedor-carrito" class="product-grid">
+        <!-- Productos del carrito -->
+      </section>
 
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
+      <div id="acciones-carrito" class="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+      </div>
 
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+      <section id="resumen-carrito">
+        <!-- Aca ira el resumen del carrito -->
+      </section>
     </main>
 
     <footer class="footer">
@@ -60,5 +57,6 @@
             <a href="https://youtube.com" target="_blank"><img src="../img/icon-youtube.png" alt="Icono de YouTube"></a>
         </div>
     </footer>
+    <script type="module" src="../js/carrito.js"></script>
 </body>
 </html>
