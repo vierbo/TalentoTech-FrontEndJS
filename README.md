@@ -1,6 +1,6 @@
 # Grave | Tienda para Bajistas 🎸
 
-Este proyecto es una simulación de una tienda de comercio electrónico. 
+Este proyecto es la simulación de una tienda de comercio electrónico. 
 Desarrollada como proyecto integrador para el curso de **Desarrollo Frontend JavaScript de Talento Tech**, la aplicación evolucionó de una estructura estática a una experiencia dinámica y fluida de usuario.
 
 El propósito principal es simular el flujo real de una tienda en línea: desde la carga de productos desde un servidor local hasta la gestión del carrito de compras y la navegación accesible.
@@ -20,5 +20,5 @@ El propósito principal es simular el flujo real de una tienda en línea: desde 
 
 *   **HTML5 Semántico:** Para una estructura de contenido lógica, accesible y amigable para el SEO.
 *   **CSS3 Moderno:** Arquitectura basada en variables globales (`:root`), Flexbox para maquetación adaptable y transiciones suaves para mejorar la experiencia de usuario (UX).
-*   **JavaScript (ES6+):** Programación modular (`type="module"`), manipulación activa del DOM, manejo de eventos y consumo de datos mediante la API `Fetch`.
+*   **JavaScript:** Programación modular (`type="module"`), manipulación activa del DOM, manejo de eventos y consumo de datos mediante la API `Fetch`.
 *   **Google Fonts:** Tipografía personalizada utilizando las fuentes *Russo One* (para títulos de gran impacto) y *Figtree* (para una lectura cómoda en el cuerpo de texto).
